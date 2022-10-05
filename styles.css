@@ -70,7 +70,7 @@ section > P {
     display: block;
     width: 327px;
     height: 46px;
-    margin: 0 auto 16px auto;
+    margin: 0 auto;
     padding-left: 32px;
     border-radius: 28px;
     background-color: #2C344B;
@@ -84,6 +84,7 @@ section > P {
 }
 
 button {
+    margin-top: 4px;
     background: #54E6AF;
     color: #121725;
     font-weight: 700;
@@ -95,4 +96,15 @@ button {
 button:hover {
     background: #B3FFE2;
     cursor: pointer;
+}
+
+.form-error {
+    padding: 2px;
+    color: #FB3E3E;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.hide {
+    color: transparent;
 }
