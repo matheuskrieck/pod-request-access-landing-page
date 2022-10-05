@@ -1,0 +1,98 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 0;
+}
+
+body{
+    font-size: 100%;
+    list-style-type: none;
+    font-style: normal;
+    font-family: "Chivo";
+}
+
+.container {
+    width: 375px;
+    height: 667px;
+    overflow: hidden;
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(18, 23, 37, 0.9);
+}
+
+#background-image {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+#pod-logo {
+    padding-top: 62px;
+    padding-bottom: 57px;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 38px;
+    color: #54E6AF;
+    text-transform: uppercase;
+}
+
+h1 > span {
+    color: #FFFFFF;
+}
+
+section > P {
+    color: #C2CBE5;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 16px 24px 33px 24px;
+}
+
+.streaming {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 48px 30px;
+}
+
+#email {
+    display: block;
+    width: 327px;
+    height: 46px;
+    margin: 0 auto 16px auto;
+    padding-left: 32px;
+    border-radius: 28px;
+    background-color: #2C344B;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#email:focus {
+    color: #FFFFFF;
+}
+
+button {
+    background: #54E6AF;
+    color: #121725;
+    font-weight: 700;
+    width: 326px;
+    height: 46px;
+    border-radius: 28px;
+}
+
+button:hover {
+    background: #B3FFE2;
+    cursor: pointer;
+}
