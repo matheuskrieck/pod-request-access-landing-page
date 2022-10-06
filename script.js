@@ -5,9 +5,9 @@ const regexp = /^\S+@\S+\.\S+$/;
 
 email.addEventListener("invalid", () => {
     if (email.value == "") {
-        errorType.innerHTML = "Oops! Please add your email !";
+        errorType.innerHTML = "Oops! Please add your email";
     } else if (regexp.test(email) == false ) {
-        errorType.innerHTML = "Oops! Please check your email !";   
+        errorType.innerHTML = "Oops! Please check your email";   
     }
 })
 
