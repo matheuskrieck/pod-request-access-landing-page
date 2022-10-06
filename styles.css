@@ -152,67 +152,120 @@ footer {
   h1 {
     text-align: left;
     font-size: 2.667rem;
-    line-height: 56px;
-    letter-spacing: 3px;
-    margin-left: 39px;
+    line-height: 3.5rem;
+    margin-left: 2.4375rem;
   }
   .description {
-    font-size: 18px;
-    line-height: 28px;
-    margin-left: 39px;
-    margin-right: 190px;
-    margin-top: 31px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-left: 2.4375rem;
+    margin-right: 11.875rem;
+    margin-top: 1.9375rem;
   }
   .adjust {
     display: flex;
     flex-direction: column-reverse;
   }
   #email {
-    width: 427px;
-    height: 56px;
-    margin-left: 39px;
+    width: 26.6875rem;
+    height: 3.5rem;
+    margin-left: 2.4375rem;
   }
   button {
     position: absolute;
-    left: 299px;
-    bottom: 203px;
-    width: 162px;
-    height: 46px;
+    left: 18.6875rem;
+    bottom: 12.6875rem;
+    width: 10.125rem;
+    height: 2.875rem;
   }
   #spotify {
-    width: 96px;
-    height: 29px;
+    width: 6rem;
+    height: 1.8125rem;
   }
   #apple {
-    width: 78px;
-    height: 29px;
+    width: 4.875rem;
+    height: 1.8125rem;
   }
   #google {
-    width: 125px;
-    height: 18px;
+    width: 7.8125rem;
+    height: 1.125rem;
   }
   #pocket {
-    width: 129px;
-    height: 26px;
+    width: 8.0625rem;
+    height: 1.625rem;
   }
   .streaming {
-    margin-top: 74px;
+    margin-top: 4.625rem;
     padding: 0;
-    padding-right: 99px;
-    margin-left: 39px;
+    padding-right: 6.1875rem;
+    margin-left: 2.4375rem;
   }
   .form-error {
-    margin-left: 39px;
-    padding-left: 2rem;
-    padding-top: 8px;
+    margin-left: 2.4375rem;
+    padding-left: 32px;
+    padding-top: 0.5rem;
   }
   footer {
     display: block;
     position: absolute;
-    width: 232px;
-    height: 104px;
-    left: 30px;
-    top: 920px;
+    width: 14.5rem;
+    height: 6.5rem;
+    left: 1.875rem;
+    top: 57.5rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  html {
+    max-width: 1440px;
+  }
+  body {
+    background-image: url(./assets/desktop/image-host.jpg);
+    background-blend-mode: normal;
+    background-size: 55.5rem 40rem;
+    background-position: right 8.125rem;
+    background-color: rgb(18, 23, 37);
+    max-width: 90rem;
+  }
+  .container {
+    max-width: 90rem;
+  }
+  #pod-logo {
+    margin-left: 10.3125rem;
+    margin-top: 6.375rem;
+  }
+  .content {
+    margin-right: 34.5rem;
+    margin-top: 3.125rem;
+  }
+  h1 {
+    padding-left: 0;
+    margin-left: 10.3125rem;
+    font-size: 3.25rem;
+    line-height: 3.875rem;
+    margin-right: 3.625rem;
+  }
+  .description {
+    margin-left: 10.3125rem;
+    margin-right: 17.375rem;
+  }
+  #email, .form-error {
+    margin-left: 10.3125rem;
+  }
+  button {
+    margin-left: 7.8125rem;
+    bottom: 11.25rem;
+  }
+  .streaming {
+    margin-left: 10.3125rem;
+    margin-top: 3.1875rem;
+  }
+  footer {
+    display: block;
+    position: absolute;
+    width: 14.5rem;
+    height: 6.5rem;
+    left: 1208px;
+    top: 718px;
   }
 }
 
