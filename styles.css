@@ -84,7 +84,7 @@ section > P {
 }
 
 button {
-    margin-top: 4px;
+    margin-top: 16px;
     background: #54E6AF;
     color: #121725;
     font-weight: 700;
@@ -99,12 +99,9 @@ button:hover {
 }
 
 .form-error {
-    padding: 2px;
     color: #FB3E3E;
     font-weight: 400;
     font-size: 12px;
-}
-
-.hide {
-    color: transparent;
+    position: absolute;
+    left: 0; right: 0;
 }
