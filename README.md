@@ -8,11 +8,11 @@
       Live
     </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/solutions/product-preview-card-content-Du1DMwEOiX" target="_blank" color="white">
+    <a href="https://www.frontendmentor.io/solutions/pod-request-access-landing-page-with-sass-KkJ1qupqqp" target="_blank" color="white">
       Solution
     </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa" target="_blank" color="white">
+    <a href="https://www.frontendmentor.io/challenges/pod-request-access-landing-page-eyTmdkLSG" target="_blank" color="white">
       Challenge
     </a>
     </h3>
