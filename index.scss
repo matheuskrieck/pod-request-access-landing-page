@@ -243,6 +243,7 @@ footer {
 @media screen and (min-width: 1440px) {
     html {
         max-width: 1440px;
+        margin: 0 auto;
     }
 
     body {
@@ -296,12 +297,11 @@ footer {
     }
 
     footer {
-        display: block;
-        position: absolute;
+        position: relative;
         width: 14.5rem;
         height: 6.5rem;
-        left: 1208px;
-        top: 718px;
+        top: 0;
+        margin: -10% 70% 0 82%;
     }
 }
 
